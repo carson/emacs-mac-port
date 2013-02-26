@@ -3,7 +3,7 @@ require 'formula'
 class EmacsMac <Formula
   homepage 'http://www.gnu.org/software/emacs/'
 
-  head 'git://github.com/railwaycat/emacs-mac-port.git'
+  head 'git://github.com/carson/emacs-mac-port.git'
 
   conflicts_with 'emacs'
   depends_on 'automake' => :build
