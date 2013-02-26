@@ -18,10 +18,8 @@ class EmacsMac <Formula
     s = ""
     s += <<-EOS.undent
 
-      This is YAMAMOTO Mitsuharu's experimental "Mac port" addition to
-      GNU Emacs 24. This provides a native GUI support for Mac OS X
-      10.4 - 10.8. After installing, see README-mac and NEWS-mac
-      in #{prefix} for the port details.
+      This is an experimental home brew formula for GNU Emacs 24 by Carson Reynolds <carson@k2.t.u-tokyo.ac.jp>. 
+      emacs-mac.rb is modified to check if emacs is already installed via brew.
 
     EOS
 
