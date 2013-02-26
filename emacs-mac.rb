@@ -5,6 +5,7 @@ class EmacsMac <Formula
 
   head 'git://github.com/railwaycat/emacs-mac-port.git'
 
+  conflicts_with 'emacs' => :build
   depends_on 'automake' => :build
   depends_on 'pkg-config' => :build
 
