@@ -5,7 +5,7 @@ class EmacsMac <Formula
 
   head 'git://github.com/carson/emacs-mac-port.git'
 
-  conflicts_with 'emacs'
+  conflicts_with 'emacs-HEAD'
   depends_on 'automake' => :build
   depends_on 'pkg-config' => :build
 
@@ -18,7 +18,8 @@ class EmacsMac <Formula
     s = ""
     s += <<-EOS.undent
 
-      This is an experimental home brew formula for GNU Emacs 24 by Carson Reynolds <carson@k2.t.u-tokyo.ac.jp>. 
+      This is an experimental home brew formula for GNU Emacs 24 
+      by Carson Reynolds <carson@k2.t.u-tokyo.ac.jp>. 
       emacs-mac.rb is modified to check if emacs is already installed via brew.
 
     EOS
